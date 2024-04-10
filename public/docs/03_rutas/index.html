@@ -1,10 +1,10 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="es" class="no-js">
-  <head><script src="/laravel/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=laravel/livereload" data-no-instant defer></script>
+  <head><script src="/laravel/livereload.js?mindelay=10&amp;v=2&amp;port=39923&amp;path=laravel/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.124.1">
-<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/laravel/docs/03_rutas/index.xml">
+<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:39923/laravel/docs/03_rutas/index.xml">
 <meta name="robots" content="noindex, nofollow">
 
 
@@ -24,7 +24,7 @@
 <meta property="og:title" content="Rutas en laravel" />
 <meta property="og:description" content="Apuntes sobre web" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/laravel/docs/03_rutas/" />
+<meta property="og:url" content="http://localhost:39923/laravel/docs/03_rutas/" />
 <meta itemprop="name" content="Rutas en laravel">
 <meta itemprop="description" content="Apuntes sobre web"><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Rutas en laravel"/>
 <meta name="twitter:description" content="Apuntes sobre web"/>
@@ -273,6 +273,18 @@
             <div class="td-toc">
         <nav id="TableOfContents">
   <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#directorio-routes">Directorio Routes</a>
+      <ul>
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#la-solicitud">La solicitud</a></li>
+        <li><a href="#la-acción">La acción</a></li>
+      </ul>
+    </li>
     <li><a href="#rutas">Rutas</a></li>
     <li><a href="#artisan">Artisan</a></li>
   </ul>
@@ -307,10 +319,10 @@
             <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
   <li class="breadcrumb-item">
-    <a href="http://localhost:1313/laravel/docs/">Laravel</a>
+    <a href="http://localhost:39923/laravel/docs/">Laravel</a>
   </li>
   <li class="breadcrumb-item active" aria-current="page">
-    <a href="http://localhost:1313/laravel/docs/03_rutas/" aria-disabled="true" class="btn-link disabled">Rutas en laravel</a>
+    <a href="http://localhost:39923/laravel/docs/03_rutas/" aria-disabled="true" class="btn-link disabled">Rutas en laravel</a>
   </li>
   </ol>
 </nav>
@@ -334,26 +346,55 @@
 		
 	</header>
 	<h1 id="concetpo-de-rutas">Concetpo de rutas</h1>
-
-
-<div class="pageinfo pageinfo-primary">
 <h4 id="heading"></h4>
 <p><img alt="img_1.png" src="/laravel/docs/03_rutas/img_1.png"></p>
 <hr>
 <p>Las rutas son <span class="font-weight-bold" style="color:darkgreen">
-la forma de definir cómo se deben manejar las solicitudes HTTP a tu aplicación
+      la forma de definir cómo se deben manejar las solicitudes HTTP a tu aplicación
 </span>
 .</p>
 <p>Especifican qué acción se debe tomar cuando se accede a una URI específica, conectando URLs con el código que genera las respuestas a esas URLs.</p>
 <p>Las podemos ver como <span class="font-weight-bold" style="color:darkgreen">
-las reglas que determinan cómo se responde a cada petición entrante a tu aplicación web.
-</span></p>
+      las reglas que determinan cómo se responde a cada petición entrante a tu aplicación web.
+</span>
+</p>
+<h2 id="directorio-routes">Directorio Routes</h2>
+<p>La carpeta <span class="font-weight-bold" style="color:darkgreen">
+      routes
+</span>
+ en un proyecto Laravel es crucial, ya que en los fichero que contiene, se van a  definir cómo tu aplicación responde a las solicitudes HTTP</p>
+<p>Después de una instalación estándar, tedremos dos ficheros:</p>
+<p><img alt="img_2.png" src="/laravel/docs/03_rutas/img_2.png"></p>
+<blockquote>
+<ul>
+<li><span class="font-weight-bold" style="color:darkgreen">
+      web.php
+</span>
+ <br>
+En él, se definen las rutas accesibles a través del navegador, gestionando solicitudes GET, POST, PUT, PATCH, DELETE, OPTIONS.
+Tendremos otros métodos disponibles, según se verán.<br>
+Aquí puedes agrupar rutas, asignarles middleware para control de acceso, y vincularlas a controladores que manejan la lógica de la aplicación.</li>
+<li><span class="font-weight-bold" style="color:darkgreen">
+      console.php
+</span>
+<br>
+Este archivo es donde defines todas las rutas CLI (Command Line Interface) o comandos de Artisan (comando que ejecutaremos desde el terminal para interactuar con nuestra aplicación</li>
+</ul>
+</blockquote>
+<h3 id="contenido">Contenido</h3>
+<p>En el fichero de rutas usaremos simpre la facade <span class="font-weight-bold" style="color:darkgreen">
+      Route
+</span>
 
+Es una Interfaz estática que va a permitir invocar  a los diferentes métodos para que nuestra aplicación ofrezca recursos web.
+La idea es establecer ante una solicitud establecer una acción :</p>
+<div class="mermaid">graph LR
+A[Solicitud] --> C[Acción]
 </div>
-
-<h1 id="directorio-routes">Directorio Routes</h1>
-<p>En el directorio de rutas tenemos un fichero <strong>web.php</strong><br>
-Dentro de este fichero especificaremos nuestras rutas</p>
+<p>En la imagen siguiente especificamos con más detelle el contenido</p>
+<h3 id="la-solicitud">La solicitud</h3>
+<h3 id="la-acción">La acción</h3>
+<hr>
 <h2 id="rutas">Rutas</h2>
 <h2 id="artisan">Artisan</h2>
 
@@ -441,6 +482,7 @@ window.markmap = {
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js" integrity="sha512-IX+bU+wShHqfqaMHLMrtwi4nK6W/Z+QdZoL4kPNtRxI2wCLyHPMAdl3a43Fv1Foqv4AP+aiW6hg1dcrTt3xc+Q==" crossorigin="anonymous"></script>
 <script src="/laravel/js/main.js"></script>
 <script src='/laravel/js/tabpane-persist.js'></script>
 

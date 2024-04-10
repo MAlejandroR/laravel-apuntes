@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Máster en  Web – Desplegar en hosgint</title>
-    <link>http://localhost:1313/laravel/docs/999_cheatseet/04_despliegue/</link>
+    <link>http://localhost:39923/laravel/docs/999_cheatseet/04_despliegue/</link>
     <description>Recent content in Desplegar en hosgint on Máster en  Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/laravel/docs/999_cheatseet/04_despliegue/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:39923/laravel/docs/999_cheatseet/04_despliegue/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: Rutas</title>
-      <link>http://localhost:1313/laravel/docs/999_cheatseet/04_despliegue/rutas/</link>
+      <link>http://localhost:39923/laravel/docs/999_cheatseet/04_despliegue/rutas/</link>
       <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
       
-      <guid>http://localhost:1313/laravel/docs/999_cheatseet/04_despliegue/rutas/</guid>
+      <guid>http://localhost:39923/laravel/docs/999_cheatseet/04_despliegue/rutas/</guid>
       <description>
         
         
@@ -72,10 +72,10 @@ Estos son algunos de los más importantes:&lt;/p&gt;
     
     <item>
       <title>Docs: Vistas</title>
-      <link>http://localhost:1313/laravel/docs/999_cheatseet/04_despliegue/vistas/</link>
+      <link>http://localhost:39923/laravel/docs/999_cheatseet/04_despliegue/vistas/</link>
       <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
       
-      <guid>http://localhost:1313/laravel/docs/999_cheatseet/04_despliegue/vistas/</guid>
+      <guid>http://localhost:39923/laravel/docs/999_cheatseet/04_despliegue/vistas/</guid>
       <description>
         
         

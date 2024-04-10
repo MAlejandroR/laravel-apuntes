@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Máster en  Web – Creando un api</title>
-    <link>http://localhost:1313/laravel/docs/10_api/</link>
+    <link>http://localhost:39923/laravel/docs/10_api/</link>
     <description>Recent content in Creando un api on Máster en  Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/laravel/docs/10_api/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:39923/laravel/docs/10_api/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: 01_Introducción y rutas</title>
-      <link>http://localhost:1313/laravel/docs/10_api/1.instalacion/</link>
+      <link>http://localhost:39923/laravel/docs/10_api/1.instalacion/</link>
       <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
       
-      <guid>http://localhost:1313/laravel/docs/10_api/1.instalacion/</guid>
+      <guid>http://localhost:39923/laravel/docs/10_api/1.instalacion/</guid>
       <description>
         
         
@@ -93,7 +93,7 @@ controllers:
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/1.instalacion/publicar_conf_blueprint_hubc6655ff057fa07672ee0d3598da19bb_16626_400x450_fill_box_smart1_3.png&#34; width=&#34;400&#34; height=&#34;450&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/1.instalacion/publicar_conf_blueprint_hubc6655ff057fa07672ee0d3598da19bb_16626_400x450_fill_box_smart1_3.png&#34; width=&#34;400&#34; height=&#34;450&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -120,7 +120,7 @@ controllers:
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/1.instalacion/blueprint_hu7d905a09ee7d2bf36cd259a5e9f9b017_133805_400x450_fill_box_smart1_3.png&#34; width=&#34;400&#34; height=&#34;450&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/1.instalacion/blueprint_hu7d905a09ee7d2bf36cd259a5e9f9b017_133805_400x450_fill_box_smart1_3.png&#34; width=&#34;400&#34; height=&#34;450&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -164,7 +164,7 @@ Ahora debemos de agregar rutas
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 819px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/1.instalacion/api_rest_hu1371efbf5acbe9a0c381b62f84c6d17b_697645_1000x7000_fit_box_3.png&#34; width=&#34;809&#34; height=&#34;711&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/1.instalacion/api_rest_hu1371efbf5acbe9a0c381b62f84c6d17b_697645_1000x7000_fit_box_3.png&#34; width=&#34;809&#34; height=&#34;711&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -183,7 +183,7 @@ De todas ellas, como solo estamos creando un api, que es para consultar, no real
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 641px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/1.instalacion/api_rest2_hu71f29d968bc7194e6e9c1b42c10f68b5_302887_1000x7000_fit_box_3.png&#34; width=&#34;631&#34; height=&#34;478&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/1.instalacion/api_rest2_hu71f29d968bc7194e6e9c1b42c10f68b5_302887_1000x7000_fit_box_3.png&#34; width=&#34;631&#34; height=&#34;478&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -209,10 +209,10 @@ Podemos ejectura route:list para ver las 5 rutas que hemos creado&lt;/p&gt;
     
     <item>
       <title>Docs: Controlador</title>
-      <link>http://localhost:1313/laravel/docs/10_api/2.visiongeneral/</link>
+      <link>http://localhost:39923/laravel/docs/10_api/2.visiongeneral/</link>
       <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
       
-      <guid>http://localhost:1313/laravel/docs/10_api/2.visiongeneral/</guid>
+      <guid>http://localhost:39923/laravel/docs/10_api/2.visiongeneral/</guid>
       <description>
         
         
@@ -259,7 +259,7 @@ Para ello vamos al body y usamo el form-data para pasar valores&lt;/p&gt;
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 730px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/2.visiongeneral/post_man1_hu03042860d9e66bdda866b24a03cabec3_41910_100000x700000_fit_box_3.png&#34; width=&#34;720&#34; height=&#34;435&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/2.visiongeneral/post_man1_hu03042860d9e66bdda866b24a03cabec3_41910_100000x700000_fit_box_3.png&#34; width=&#34;720&#34; height=&#34;435&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -280,7 +280,7 @@ Escribmos el código del método &lt;strong&gt;store&lt;/strong&gt; añadiendo u
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 786px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/2.visiongeneral/post_header_hu24137b102913010a3001cc1f15211081_21115_100000x700000_fit_box_3.png&#34; width=&#34;776&#34; height=&#34;184&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/2.visiongeneral/post_header_hu24137b102913010a3001cc1f15211081_21115_100000x700000_fit_box_3.png&#34; width=&#34;776&#34; height=&#34;184&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -332,7 +332,7 @@ En el postman, para pasar los nuevos datos usamos
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 730px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/2.visiongeneral/post_patch_form_endocode_hu03042860d9e66bdda866b24a03cabec3_41910_100000x700000_fit_box_3.png&#34; width=&#34;720&#34; height=&#34;435&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/2.visiongeneral/post_patch_form_endocode_hu03042860d9e66bdda866b24a03cabec3_41910_100000x700000_fit_box_3.png&#34; width=&#34;720&#34; height=&#34;435&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -388,10 +388,10 @@ modo de pasar datos al método patch
     
     <item>
       <title>Docs: 3.La Vista unitarios</title>
-      <link>http://localhost:1313/laravel/docs/10_api/3.la-vista/</link>
+      <link>http://localhost:39923/laravel/docs/10_api/3.la-vista/</link>
       <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
       
-      <guid>http://localhost:1313/laravel/docs/10_api/3.la-vista/</guid>
+      <guid>http://localhost:39923/laravel/docs/10_api/3.la-vista/</guid>
       <description>
         
         
@@ -472,7 +472,7 @@ Para configurar la base de datos de test, primero la creamos en nuestro gestor
 
 
 &lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 230px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:1313/laravel/laravel/docs/10_api/3.la-vista/base_datos_test_hu8e64a472d05daf2321199f6a2da39aa9_24341_100000x700000_fit_box_3.png&#34; width=&#34;220&#34; height=&#34;179&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://localhost:39923/laravel/laravel/docs/10_api/3.la-vista/base_datos_test_hu8e64a472d05daf2321199f6a2da39aa9_24341_100000x700000_fit_box_3.png&#34; width=&#34;220&#34; height=&#34;179&#34;&gt;
 	
 	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
