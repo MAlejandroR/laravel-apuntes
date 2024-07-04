@@ -1,7 +1,7 @@
-baseURL = 'http://proyectosdwa.es/laravel'
+#baseURL = 'http://proyectosdwa.es/laravel'
 #baseURL = 'http://manuel.infenlaces.com/contenido/laravel'
 #baseURL = 'http://manuel.web.infenlaces.com/apuntes/laravel'
-#baseURL = 'http://localhost'
+baseURL = 'http://localhost'
 languageCode = 'es-es'
 title = 'Recursos de apoyo al aprendizaje'
 
@@ -54,20 +54,20 @@ pygmentsStyle = "perldoc"
 
 
 
-[languages.en]
+[languages.en.params]
 title = "Docsy"
 description = "Docsy er operativsystem for skyen"
 languageName = "English"
 contentDir = "content/en"
 
 
-[languages.es]
+[languages.es.params]
 title = "Máster en  Web"
 description = "Apuntes sobre web"
 languageName = "Español"
 contentDir = "content/es"
 
-[languages.fr]
+[languages.fr.params]
 title = "Docsy"
 description = "Docsy er operativsystem for skyen"
 languageName = "Francés"

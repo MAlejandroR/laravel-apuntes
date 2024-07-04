@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fortity on Recursos de apoyo al aprendizaje</title>
+    <link>http://localhost:1313/docs/06_autenticacion/fortity/</link>
+    <description>Recent content in Fortity on Recursos de apoyo al aprendizaje</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/06_autenticacion/fortity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diagrama de flujo</title>
+      <link>http://localhost:1313/docs/06_autenticacion/fortity/diagrama/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      <guid>http://localhost:1313/docs/06_autenticacion/fortity/diagrama/</guid>
+      <description>Idea del Diagrama 1. Configuración Inicial Archivo de Configuración fortify.php Ruta: config/fortify.php Elementos configurables: features, views, guard, passwords, etc. username, email, lowercase_username, home, prefix, domain, middleware, limiters 2. Proceso de Autenticación Solicitudes de Autenticación Rutas de Fortify Registro /register Inicio de sesión /login Restablecimiento de contraseña /forgot-password, /reset-password Controladores de Fortify RegistersUsers, AuthenticatesUsers, ResetsPasswords, ConfirmsPasswords, VerifiesEmails, UpdatesPasswords, TwoFactorAuthenticatesUsers, LogoutUsers Eventos y Acciones Registro exitoso Inicio de sesión exitoso Restablecimiento de contraseña exitoso 3.</description>
+    </item>
+    <item>
+      <title>Personalizar controladores</title>
+      <link>http://localhost:1313/docs/06_autenticacion/fortity/peronsalizar_controladores/</link>
+      <pubDate>Sat, 08 Apr 2023 18:21:47 +0200</pubDate>
+      <guid>http://localhost:1313/docs/06_autenticacion/fortity/peronsalizar_controladores/</guid>
+      <description>Personalización del Proceso de Autenticación en Laravel Fortify Personalizar los controladores para autenticación con Fortity Al instalar Laravel Fortify , los controladores que manejan el proceso de login, registro y otras acciones de autenticación no se encuentran de forma explícita en el directorio Http\Controllers de tu aplicación.&#xA;Estos Controladores están ubicados en vendor/laravel/fortify/src/Http/Controllers :&#xA;AuthenticatedSessionController : Maneja el inicio de sesión y cierre de sesión. RegisteredUserController : Maneja el registro de nuevos usuarios.</description>
+    </item>
+  </channel>
+</rss>

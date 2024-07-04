@@ -93,11 +93,11 @@ Ahora vamos a crar un modelo, y queremos crear también la migración y el facto
 php artisan make:model Book -mf --api
 {{< / highlight >}}
 Ahora debemos de agregar rutas
-{{< imgproc api_rest.png Fit "1000x7000 center" >}}
+{{< imgproc api_rest.png Fit "1000x7000" >}}
 imagen api
 {{< /imgproc >}}
 De todas ellas, como solo estamos creando un api, que es para consultar, no realizaremos la acción de editar para modificar, ni de crear por lo que las rutas nos quedarían
-{{< imgproc api_rest2.png Fit "1000x7000 center" >}}
+{{< imgproc api_rest2.png Fit "1000x7000" >}}
 imagen api
 {{< /imgproc >}}
 Creamos estas rutas en el fichero **routes/api.php**

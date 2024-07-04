@@ -1,0 +1,123 @@
+content/es/docs/04_plantillas/03_componentes/_index.md:{{< imgproc componentes_laravel_general Fit "2000x1000" >}}
+content/es/docs/04_plantillas/03_componentes/_index.md:{{< imgproc creacion_componentes_layout_1 Fit "700x700" >}}
+content/es/docs/04_plantillas/03_componentes/_index.md:{{< imgproc img Fill "600x700" >}}
+content/es/docs/08_crud/_index.old:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/08_crud/_index.old:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/08_crud/_index.old:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/08_crud/03_El Controlador/04_Borrar/_index.md:{{< imgproc FicheroDiaDeleteAlumno  Fill "1005x398" >}}
+content/es/docs/08_crud/03_El Controlador/04_Borrar/_index.seg.md:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/08_crud/03_El Controlador/04_Borrar/_index.seg.md:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/08_crud/03_El Controlador/04_Borrar/_index.seg.md:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/08_crud/03_El Controlador/02_CrearAlumno/_index.md:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/08_crud/03_El Controlador/02_CrearAlumno/_index.md:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/08_crud/03_El Controlador/02_CrearAlumno/_index.md:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/08_crud/03_El Controlador/02_CrearAlumno/_index.md:{{< imgproc forbbiden Fill "700x250" >}}
+content/es/docs/08_crud/03_El Controlador/03_Modificar/_index.md:{{< imgproc FicheroDiaUpdateAlumno  Fill "1005x398" >}}
+content/es/docs/08_crud/03_El Controlador/03_Modificar/_index.md:{{< imgproc vistaEditAlumno Fill "250x100" >}}
+content/es/docs/08_crud/03_El Controlador/03_Modificar/_index.md:{{< imgproc forbbiden Fill "700x250" >}}
+content/es/docs/08_crud/03_El Controlador/01_listado/_index.md:{{< imgproc listado Fill "682x317" >}}
+content/es/docs/08_crud/03_El Controlador/01_listado/_index.md:{{< imgproc vistaAlumnos Fill "2000x500" >}}
+content/es/docs/08_crud/03_El Controlador/_index.seg.md:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/08_crud/03_El Controlador/_index.seg.md:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/08_crud/03_El Controlador/_index.seg.md:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/a:01_Introducción/_index.md:35:  {{< imgproc img_1 Fill "300x250" >}}
+content/es/docs/a:01_Introducción/_index.md:42:{{< imgproc img_2 Fill "900x1000" >}}
+content/es/docs/a:01_Introducción/_index.md:81:{{< imgproc listado_frameworks Fill "600x400" >}}
+content/es/docs/a:03_rutas/_index.md:43:{{< imgproc  Fill "400x450" >}}
+content/es/docs/a:04_plantillas/03_componentes/_index.md:25:{{< imgproc componentes_laravel_general Fit "2000x1000" >}}
+content/es/docs/a:04_plantillas/03_componentes/_index.md:41:{{< imgproc creacion_componentes_layout_1 Fit "700x700" >}}
+content/es/docs/a:04_plantillas/03_componentes/_index.md:116:{{< imgproc img Fill "600x700" >}}
+content/es/docs/a:08_crud/_index.old:378:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/a:08_crud/_index.old:428:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/a:08_crud/_index.old:491:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/a:08_crud/03_El Controlador/04_Borrar/_index.md:22:{{< imgproc FicheroDiaDeleteAlumno  Fill "1005x398" >}}
+content/es/docs/a:08_crud/03_El Controlador/04_Borrar/_index.seg.md:141:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/a:08_crud/03_El Controlador/04_Borrar/_index.seg.md:190:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/a:08_crud/03_El Controlador/04_Borrar/_index.seg.md:253:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:22:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:68:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:131:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:150:{{< imgproc forbbiden Fill "700x250" >}}
+content/es/docs/a:08_crud/03_El Controlador/03_Modificar/_index.md:27:{{< imgproc FicheroDiaUpdateAlumno  Fill "1005x398" >}}
+content/es/docs/a:08_crud/03_El Controlador/03_Modificar/_index.md:88:{{< imgproc vistaEditAlumno Fill "250x100" >}}
+content/es/docs/a:08_crud/03_El Controlador/03_Modificar/_index.md:174:{{< imgproc forbbiden Fill "700x250" >}}
+content/es/docs/a:08_crud/03_El Controlador/01_listado/_index.md:11:{{< imgproc listado Fill "682x317" >}}
+content/es/docs/a:08_crud/03_El Controlador/01_listado/_index.md:87:{{< imgproc vistaAlumnos Fill "2000x500" >}}
+content/es/docs/a:08_crud/03_El Controlador/_index.seg.md:141:{{< imgproc createAlumno Fill "913x372" >}}
+content/es/docs/a:08_crud/03_El Controlador/_index.seg.md:190:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+content/es/docs/a:08_crud/03_El Controlador/_index.seg.md:253:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+content/es/docs/a:09_API/_index.md:11:{{< imgproc inercia Fill "900x1200" >}}
+content/es/docs/a:09_API/_index.md:22:. {{< imgproc installWithJetOption Fill "400x450" >}}
+content/es/docs/a:09_inertia/_index.md:11:{{< imgproc inertia Fill "900x1200" >}}
+content/es/docs/a:09_inertia/_index.md:22:. {{< imgproc installWithJetOption Fill "400x450" >}}
+content/es/docs/a:10_API/_index.md:27:{{< imgproc API Fill "1800x1000" >}}
+content/es/docs/a:10_API/3.La Vista/_index.md:51:{{< imgproc base_datos_test Fit "100000x700000 center" >}}
+content/es/docs/a:10_API/2.VisionGeneral/_index.md:33:{{< imgproc post_man1 Fit "100000x700000 center" >}}
+content/es/docs/a:10_API/2.VisionGeneral/_index.md:41:{{< imgproc post_header Fit "100000x700000 center" >}}
+content/es/docs/a:10_API/2.VisionGeneral/_index.md:64:{{< imgproc post_patch_form_endocode Fit "100000x700000 center" >}}
+content/es/docs/a:10_API/1.instalacion/_index.md:63:{{< imgproc publicar_conf_blueprint Fill "400x450" >}}
+content/es/docs/a:10_API/1.instalacion/_index.md:73:{{< imgproc blueprint Fill "400x450" >}}
+content/es/docs/a:10_API/1.instalacion/_index.md:96:{{< imgproc api_rest.png Fit "1000x7000 center" >}}
+content/es/docs/a:10_API/1.instalacion/_index.md:100:{{< imgproc api_rest2.png Fit "1000x7000 center" >}}
+content/es/docs/a:_index.md:26:{{< imgproc roadmap Resize "500x right">}}
+content/es/docs/10_API/_index.md:{{< imgproc API Fill "1800x1000" >}}
+content/es/docs/10_API/3.La Vista/_index.md:{{< imgproc base_datos_test Fit "100000x700000 center" >}}
+content/es/docs/10_API/2.VisionGeneral/_index.md:{{< imgproc post_man1 Fit "100000x700000 center" >}}
+content/es/docs/10_API/2.VisionGeneral/_index.md:{{< imgproc post_header Fit "100000x700000 center" >}}
+content/es/docs/10_API/2.VisionGeneral/_index.md:{{< imgproc post_patch_form_endocode Fit "100000x700000 center" >}}
+content/es/docs/10_API/1.instalacion/_index.md:{{< imgproc publicar_conf_blueprint Fill "400x450" >}}
+content/es/docs/10_API/1.instalacion/_index.md:{{< imgproc blueprint Fill "400x450" >}}
+content/es/docs/10_API/1.instalacion/_index.md:{{< imgproc api_rest.png Fit "1000x7000 center" >}}
+content/es/docs/10_API/1.instalacion/_index.md:{{< imgproc api_rest2.png Fit "1000x7000 center" >}}
+content/es/docs/03_rutas/_index.md:{{< imgproc  Fill "400x450" >}}
+content/es/docs/_index.md:{{< imgproc roadmap Resize "500x right">}}
+content/es/docs/09_API/_index.md:{{< imgproc inercia Fill "900x1200" >}}
+content/es/docs/09_API/_index.md:. {{< imgproc installWithJetOption Fill "400x450" >}}
+content/es/docs/01_Introducción/_index.md:  {{< imgproc img_1 Fill "300x250" >}}
+content/es/docs/01_Introducción/_index.md:{{< imgproc img_2 Fill "900x1000" >}}
+content/es/docs/01_Introducción/_index.md:{{< imgproc listado_frameworks Fill "600x400" >}}
+content/es/docs/09_inertia/_index.md:{{< imgproc inertia Fill "900x1200" >}}
+content/es/docs/09_inertia/_index.md:. {{< imgproc installWithJetOption Fill "400x450" >}}
+public/docs/08_crud/_index.old:{{< imgproc createAlumno Fill "913x372" >}}
+public/docs/08_crud/_index.old:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+public/docs/08_crud/_index.old:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+public/docs/a:01_Introducción/_index.md:35:  {{< imgproc img_1 Fill "300x250" >}}
+public/docs/a:01_Introducción/_index.md:42:{{< imgproc img_2 Fill "900x1000" >}}
+public/docs/a:01_Introducción/_index.md:81:{{< imgproc listado_frameworks Fill "600x400" >}}
+public/docs/a:03_rutas/_index.md:43:{{< imgproc  Fill "400x450" >}}
+public/docs/a:04_plantillas/03_componentes/_index.md:25:{{< imgproc componentes_laravel_general Fit "2000x1000" >}}
+public/docs/a:04_plantillas/03_componentes/_index.md:41:{{< imgproc creacion_componentes_layout_1 Fit "700x700" >}}
+public/docs/a:04_plantillas/03_componentes/_index.md:116:{{< imgproc img Fill "600x700" >}}
+public/docs/a:08_crud/_index.old:378:{{< imgproc createAlumno Fill "913x372" >}}
+public/docs/a:08_crud/_index.old:428:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+public/docs/a:08_crud/_index.old:491:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+public/docs/a:08_crud/03_El Controlador/04_Borrar/_index.md:22:{{< imgproc FicheroDiaDeleteAlumno  Fill "1005x398" >}}
+public/docs/a:08_crud/03_El Controlador/04_Borrar/_index.seg.md:141:{{< imgproc createAlumno Fill "913x372" >}}
+public/docs/a:08_crud/03_El Controlador/04_Borrar/_index.seg.md:190:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+public/docs/a:08_crud/03_El Controlador/04_Borrar/_index.seg.md:253:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+public/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:22:{{< imgproc createAlumno Fill "913x372" >}}
+public/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:68:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+public/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:131:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+public/docs/a:08_crud/03_El Controlador/02_CrearAlumno/_index.md:150:{{< imgproc forbbiden Fill "700x250" >}}
+public/docs/a:08_crud/03_El Controlador/03_Modificar/_index.md:27:{{< imgproc FicheroDiaUpdateAlumno  Fill "1005x398" >}}
+public/docs/a:08_crud/03_El Controlador/03_Modificar/_index.md:88:{{< imgproc vistaEditAlumno Fill "250x100" >}}
+public/docs/a:08_crud/03_El Controlador/03_Modificar/_index.md:174:{{< imgproc forbbiden Fill "700x250" >}}
+public/docs/a:08_crud/03_El Controlador/01_listado/_index.md:11:{{< imgproc listado Fill "682x317" >}}
+public/docs/a:08_crud/03_El Controlador/01_listado/_index.md:87:{{< imgproc vistaAlumnos Fill "2000x500" >}}
+public/docs/a:08_crud/03_El Controlador/_index.seg.md:141:{{< imgproc createAlumno Fill "913x372" >}}
+public/docs/a:08_crud/03_El Controlador/_index.seg.md:190:{{< imgproc vistaCrearAlumno Fill "250x100" >}}
+public/docs/a:08_crud/03_El Controlador/_index.seg.md:253:{{< imgproc formularioNuevoAlumno Fill "500x700" >}}
+public/docs/a:09_API/_index.md:11:{{< imgproc inercia Fill "900x1200" >}}
+public/docs/a:09_API/_index.md:22:. {{< imgproc installWithJetOption Fill "400x450" >}}
+public/docs/a:09_inertia/_index.md:11:{{< imgproc inertia Fill "900x1200" >}}
+public/docs/a:09_inertia/_index.md:22:. {{< imgproc installWithJetOption Fill "400x450" >}}
+public/docs/a:10_API/_index.md:27:{{< imgproc API Fill "1800x1000" >}}
+public/docs/a:10_API/3.La Vista/_index.md:51:{{< imgproc base_datos_test Fit "100000x700000 center" >}}
+public/docs/a:10_API/2.VisionGeneral/_index.md:33:{{< imgproc post_man1 Fit "100000x700000 center" >}}
+public/docs/a:10_API/2.VisionGeneral/_index.md:41:{{< imgproc post_header Fit "100000x700000 center" >}}
+public/docs/a:10_API/2.VisionGeneral/_index.md:64:{{< imgproc post_patch_form_endocode Fit "100000x700000 center" >}}
+public/docs/a:10_API/1.instalacion/_index.md:63:{{< imgproc publicar_conf_blueprint Fill "400x450" >}}
+public/docs/a:10_API/1.instalacion/_index.md:73:{{< imgproc blueprint Fill "400x450" >}}
+public/docs/a:10_API/1.instalacion/_index.md:96:{{< imgproc api_rest.png Fit "1000x7000 center" >}}
+public/docs/a:10_API/1.instalacion/_index.md:100:{{< imgproc api_rest2.png Fit "1000x7000 center" >}}
+public/docs/a:_index.md:26:{{< imgproc roadmap Resize "500x right">}}

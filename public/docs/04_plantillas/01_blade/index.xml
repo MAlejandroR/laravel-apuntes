@@ -1,19 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Máster en  Web – Plantillas en laravel</title>
-    <link>http://localhost:39923/laravel/docs/04_plantillas/01_blade/</link>
-    <description>Recent content in Plantillas en laravel on Máster en  Web</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Plantillas en laravel on Recursos de apoyo al aprendizaje</title>
+    <link>http://localhost:1313/docs/04_plantillas/01_blade/</link>
+    <description>Recent content in Plantillas en laravel on Recursos de apoyo al aprendizaje</description>
+    <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 08 Apr 2023 18:21:47 +0200</lastBuildDate>
-    
-	  <atom:link href="http://localhost:39923/laravel/docs/04_plantillas/01_blade/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/04_plantillas/01_blade/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

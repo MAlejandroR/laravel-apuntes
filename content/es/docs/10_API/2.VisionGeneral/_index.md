@@ -30,7 +30,7 @@ sudo snap install postman
 Vemos que con el post, en la parte del body del mensaje hay que aportar algún valor
 Para ello vamos al body y usamo el form-data para pasar valores
 
-{{< imgproc post_man1 Fit "100000x700000 center" >}}
+{{< imgproc post_man1 Fit "100000x700000" >}}
 Pasar parámetros para el post
 {{< /imgproc >}}
 Escribmos el código del método **store** añadiendo un nuevo libro
@@ -38,7 +38,7 @@ Escribmos el código del método **store** añadiendo un nuevo libro
 Podemos ver qué ocurre si ponemos otro parámetro o no pasamos ningún libro
 
 Para poder ver los errores debemos habilitar los hedear para en formato json aceptar los errores
-{{< imgproc post_header Fit "100000x700000 center" >}}
+{{< imgproc post_header Fit "100000x700000" >}}
 Añadir la opción de ver los errores en el navegador
 {{< /imgproc >}}
 
@@ -61,7 +61,7 @@ Podemos establecer en el servidor el control del error indicando lo que queramos
 ### PATH
 La actualización es muy similar al storage, con la diferencia que solo queremos actualizar, no agregar
 En el postman, para pasar los nuevos datos usamos 
-{{< imgproc post_patch_form_endocode Fit "100000x700000 center" >}}
+{{< imgproc post_patch_form_endocode Fit "100000x700000" >}}
 modo de pasar datos al método patch
 {{< /imgproc >}}
 {{< highlight php "linenos=table,anclorlinenos=true, hl_lines=" >}}

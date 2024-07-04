@@ -40,9 +40,11 @@ A[Solicitud] --> C[Acción]
 ```
 
 En la imagen siguiente especificamos con más detelle el contenido
-{{< imgproc  Fill "400x450" >}}
 
-{{< /imgproc >}}
+[//]: # ({{< imgproc  Fill "400x450" >}})
+
+[//]: # ()
+[//]: # ({{< /imgproc >}})
 ### La solicitud
 ### La acción 
 
