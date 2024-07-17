@@ -1,0 +1,6 @@
+:root {
+    --bs-body-font-size: 2rem; /* Ajusta este valor al tamaño deseado */
+}
+body{
+    font-size:25px;
+}

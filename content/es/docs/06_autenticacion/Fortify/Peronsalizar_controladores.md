@@ -8,30 +8,43 @@ icon: fa-solid fa-sitemap
 
 # Personalización del Proceso de Autenticación en Laravel Fortify
 
-# Personalizar los  controladores para autenticación con Fortity
+# Personalizar los  controladores para autenticación con fortify
 
 Al instalar **{{<color_green>}}Laravel Fortify{{</color_green>}}**, los controladores que manejan el proceso de *{{<color_blue>}}login, registro y otras acciones de autenticación{{</color_blue>}}* no se encuentran de forma explícita en el directorio {{<color_blue>}}Http\Controllers{{</color_blue>}} de tu aplicación.
 
 Estos **{{<color_green>}}Controladores{{</color_green>}}** están ubicados en **{{<color_blue>}}vendor/laravel/fortify/src/Http/Controllers{{</color_blue>}}** :
+## Estos Controladores están ubicados en `vendor/laravel/fortify/src/Http/Controllers`:
+
+### Loguearse
 * {{<color_green>}}AuthenticatedSessionController{{</color_green>}}: Maneja el inicio de sesión y cierre de sesión.
 * {{<color_green>}}RegisteredUserController{{</color_green>}}: Maneja el registro de nuevos usuarios.
-* {{<color_green>}}PasswordResetLinkController{{</color_green>}}: Maneja el envío de enlaces para restablecer contraseñas.
+
+### Confirmación, reseteo de password
+* {{<color_green>}}ConfirmablePasswordController{{</color_green>}}: Maneja la confirmación de contraseñas antes de realizar ciertas acciones.
+* {{<color_green>}}ConfirmedPasswordStatusController{{</color_green>}}: Proporciona el estado de la confirmación de la contraseña.
+* {{<color_green>}}ConfirmedTwoFactorAuthenticationController{{</color_green>}}: Maneja la confirmación de autenticación de dos factores.
 * {{<color_green>}}NewPasswordController{{</color_green>}}: Maneja el restablecimiento de contraseñas.
+* {{<color_green>}}PasswordController{{</color_green>}}: Maneja la actualización de contraseñas.
+* {{<color_green>}}PasswordResetLinkController{{</color_green>}}: Maneja el envío de enlaces para restablecer contraseñas.
+
+### Verificar por email
+* {{<color_green>}}EmailVerificationNotificationController{{</color_green>}}: Maneja el envío de notificaciones de verificación de correo electrónico.
 * {{<color_green>}}EmailVerificationPromptController{{</color_green>}}: Muestra la solicitud de verificación de correo electrónico.
 * {{<color_green>}}VerifyEmailController{{</color_green>}}: Maneja la verificación de direcciones de correo electrónico.
-* {{<color_green>}}EmailVerificationNotificationController{{</color_green>}}: Maneja el envío de notificaciones de verificación de correo electrónico.
+
+### Gestión de perfil
 * {{<color_green>}}ProfileInformationController{{</color_green>}}: Maneja la actualización de la información del perfil del usuario.
-* {{<color_green>}}PasswordController{{</color_green>}}: Maneja la actualización de contraseñas.
-* {{<color_green>}}TwoFactorAuthenticationController{{</color_green>}}: Maneja la activación y desactivación de la autenticación de dos factores.
-* {{<color_green>}}TwoFactorQrCodeController{{</color_green>}}: Muestra el código QR para la autenticación de dos factores.
-* {{<color_green>}}TwoFactorSecretController{{</color_green>}}: Muestra el secreto para la autenticación de dos factores.
 * {{<color_green>}}RecoveryCodeController{{</color_green>}}: Maneja los códigos de recuperación para la autenticación de dos factores.
 
+### 2FA
+* {{<color_green>}}TwoFactorAuthenticatedSessionController{{</color_green>}}: Maneja la autenticación de sesiones con dos factores.
+* {{<color_green>}}TwoFactorAuthenticationController{{</color_green>}}: Maneja la activación y desactivación de la autenticación de dos factores.
+* {{<color_green>}}TwoFactorQrCodeController{{</color_green>}}: Muestra el código QR para la autenticación de dos factores.
+* {{<color_green>}}TwoFactorSecretKeyController{{</color_green>}}: Maneja las claves secretas para la autenticación de dos factores.
 
+Al instalar fortify los controladores que manejan el proceso de login, register y demás acciones de este paquete, no se exponen de forma explícita en el directorio **http**.
 
-Al instalar fortity los controladores que manejan el proceso de login, register y demás acciones de este paquete, no se exponen de forma explícita en el directorio **http**.
-
-
+Además si instalamos Jetstream, tenemos disponibles las sigueintes fucnionalidades
 
 # chatgpt
 

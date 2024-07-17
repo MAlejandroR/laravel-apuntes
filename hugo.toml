@@ -79,7 +79,7 @@ ul_show = 1
 sidebar_menu_foldable = true
 
 [params]
-custom_css=['/css/estilo.css']
+custom_css=['assets/custom.css']
 copyright = "@MRomero"
 privacy_policy = "https://policies.google.com/privacy"
 icons = {smile = ":smile:", wave = "👋", rocket = "🚀", etc = "..." }
