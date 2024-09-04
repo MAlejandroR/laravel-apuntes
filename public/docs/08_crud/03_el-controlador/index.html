@@ -23,21 +23,21 @@
 <meta property="og:url" content="http://localhost:1313/docs/08_crud/03_el-controlador/">
   <meta property="og:site_name" content="Recursos de apoyo al aprendizaje">
   <meta property="og:title" content="El controlador y las vistas">
-  <meta property="og:description" content="Acciones a realizar Esta es la parte qué logicamente mas implicación tiene a nivel de back Tendremos que seguir el MVC es decir como podemos ver en este diagrama:
-graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#34;Solicitudes&#34; UI --&gt;|Petición| B[Controladores] end subgraph &#34;Controladores&#34; B --&gt;|Manejo de solicitudes| C[Base de Datos] B --&gt;|Retornar Vistas directamente| E[Retornar Vistas] end subgraph &#34;Base de Datos&#34; C --&gt;|Operaciones CRUD| D[Base de Datos] D --&gt;|Respueta BD| C end E --&gt;|Vistas sin Datos| UF[Usuario Final] C --&gt;|Datos para vista | UF En el diagrama se representan dos situaciones generales a partir de una solicitud de usuario:">
+  <meta property="og:description" content=" Acciones a realizar Esta es la parte qué logicamente mas implicación tiene a nivel de back Tendremos que seguir el MVC es decir como podemos ver en este diagrama:
+graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#34;Solicitudes&#34; UI --&gt;|Petición| B[Controladores] end subgraph &#34;Controladores&#34; B --&gt;|Manejo de solicitudes| C[Base de Datos] B --&gt;|Retornar Vistas directamente| E[Retornar Vistas] end subgraph &#34;Base de Datos&#34; C --&gt;|Operaciones CRUD| D[Base de Datos] D --&gt;|Respueta BD| C end E --&gt;|Vistas sin Datos| UF[Usuario Final] C --&gt;|Datos para vista | UF">
   <meta property="og:locale" content="es">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="El controlador y las vistas">
-  <meta itemprop="description" content="Acciones a realizar Esta es la parte qué logicamente mas implicación tiene a nivel de back Tendremos que seguir el MVC es decir como podemos ver en este diagrama:
-graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#34;Solicitudes&#34; UI --&gt;|Petición| B[Controladores] end subgraph &#34;Controladores&#34; B --&gt;|Manejo de solicitudes| C[Base de Datos] B --&gt;|Retornar Vistas directamente| E[Retornar Vistas] end subgraph &#34;Base de Datos&#34; C --&gt;|Operaciones CRUD| D[Base de Datos] D --&gt;|Respueta BD| C end E --&gt;|Vistas sin Datos| UF[Usuario Final] C --&gt;|Datos para vista | UF En el diagrama se representan dos situaciones generales a partir de una solicitud de usuario:">
+  <meta itemprop="description" content=" Acciones a realizar Esta es la parte qué logicamente mas implicación tiene a nivel de back Tendremos que seguir el MVC es decir como podemos ver en este diagrama:
+graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#34;Solicitudes&#34; UI --&gt;|Petición| B[Controladores] end subgraph &#34;Controladores&#34; B --&gt;|Manejo de solicitudes| C[Base de Datos] B --&gt;|Retornar Vistas directamente| E[Retornar Vistas] end subgraph &#34;Base de Datos&#34; C --&gt;|Operaciones CRUD| D[Base de Datos] D --&gt;|Respueta BD| C end E --&gt;|Vistas sin Datos| UF[Usuario Final] C --&gt;|Datos para vista | UF">
   <meta itemprop="datePublished" content="2023-04-08T18:21:47+02:00">
   <meta itemprop="dateModified" content="2023-04-08T18:21:47+02:00">
   <meta itemprop="wordCount" content="229">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="El controlador y las vistas">
-  <meta name="twitter:description" content="Acciones a realizar Esta es la parte qué logicamente mas implicación tiene a nivel de back Tendremos que seguir el MVC es decir como podemos ver en este diagrama:
-graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#34;Solicitudes&#34; UI --&gt;|Petición| B[Controladores] end subgraph &#34;Controladores&#34; B --&gt;|Manejo de solicitudes| C[Base de Datos] B --&gt;|Retornar Vistas directamente| E[Retornar Vistas] end subgraph &#34;Base de Datos&#34; C --&gt;|Operaciones CRUD| D[Base de Datos] D --&gt;|Respueta BD| C end E --&gt;|Vistas sin Datos| UF[Usuario Final] C --&gt;|Datos para vista | UF En el diagrama se representan dos situaciones generales a partir de una solicitud de usuario:">
+  <meta name="twitter:description" content=" Acciones a realizar Esta es la parte qué logicamente mas implicación tiene a nivel de back Tendremos que seguir el MVC es decir como podemos ver en este diagrama:
+graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#34;Solicitudes&#34; UI --&gt;|Petición| B[Controladores] end subgraph &#34;Controladores&#34; B --&gt;|Manejo de solicitudes| C[Base de Datos] B --&gt;|Retornar Vistas directamente| E[Retornar Vistas] end subgraph &#34;Base de Datos&#34; C --&gt;|Operaciones CRUD| D[Base de Datos] D --&gt;|Respueta BD| C end E --&gt;|Vistas sin Datos| UF[Usuario Final] C --&gt;|Datos para vista | UF">
 
 
 
@@ -146,7 +146,11 @@ graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#3
   <label for="m-docs06_autenticacionfortify-check"><a href="/docs/06_autenticacion/fortify/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docs06_autenticacionfortify"><i class="fa-solid fa-sitemap"></i><span class="">Fortify y Jetstream</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docs06_autenticacionfortify01_instalacion-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docs06_autenticacionfortify02_page_role_autenticated-li">
+  <input type="checkbox" id="m-docs06_autenticacionfortify02_page_role_autenticated-check"/>
+  <label for="m-docs06_autenticacionfortify02_page_role_autenticated-check"><a href="/docs/06_autenticacion/fortify/02_page_role_autenticated/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docs06_autenticacionfortify02_page_role_autenticated"><i class="fa-solid fa-sitemap"></i><span class="">Dashboard según rol</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docs06_autenticacionfortify01_instalacion-li">
   <input type="checkbox" id="m-docs06_autenticacionfortify01_instalacion-check"/>
   <label for="m-docs06_autenticacionfortify01_instalacion-check"><a href="/docs/06_autenticacion/fortify/01_instalacion/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docs06_autenticacionfortify01_instalacion"><i class="fa-solid fa-sitemap"></i><span class="">Instalación</span></a></label>
   
@@ -234,6 +238,21 @@ graph LR subgraph &#34;Usuario Inicial&#34; UI[Usuario Inicial] end subgraph &#3
   
 </li>
   </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docs11_roles-li">
+  <input type="checkbox" id="m-docs11_roles-check"/>
+  <label for="m-docs11_roles-check"><a href="/docs/11_roles/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docs11_roles"><i class="fa-brands fa-critical-role"></i><span class="">Roles</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docs11_roleseloquent-li">
+  <input type="checkbox" id="m-docs11_roleseloquent-check"/>
+  <label for="m-docs11_roleseloquent-check"><a href="/docs/11_roles/eloquent/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docs11_roleseloquent"><i class="fa-solid fa-database"></i><span class="">Migracioens</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docs12_provider-li">
+  <input type="checkbox" id="m-docs12_provider-check"/>
+  <label for="m-docs12_provider-check"><a href="/docs/12_provider/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docs12_provider"><i class="fa-brands fa-critical-role"></i><span class="">12_Provider</span></a></label>
+  
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docs999_cheatseet-li">
   <input type="checkbox" id="m-docs999_cheatseet-check"/>
   <label for="m-docs999_cheatseet-check"><a href="/docs/999_cheatseet/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docs999_cheatseet"><span class="">Cheat Sheet</span></a></label>
@@ -378,7 +397,7 @@ en fichero de rutas <span class="font-weight-bold" style="color:darkblue">
 web.php
 </span></p>
 <figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 210px">
-<img class="card-img-top" src="/docs/08_crud/03_el-controlador/web_hue43dde1c021b61ae77e3e44799bc1f09_5794_200x150_fill_box_smart1_3.png" width="200" height="150">
+<img class="card-img-top" src="/docs/08_crud/03_el-controlador/web_hu10068537017825166368.png" width="200" height="150">
 </figure>
 <p>En él incluímos la sigueinte línea</p>
 <div class="highlight"><div style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
@@ -412,7 +431,7 @@ Alternativamente puedes establecer con <span class="font-weight-bold" style="col
 </div>
 </div>
 <figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 1510px">
-<img class="card-img-top" src="/docs/08_crud/03_el-controlador/routelist_hub8f9acbbbda8f31eae88b043f050f301_81006_1500x200_fill_box_smart1_3.png" width="1500" height="200">
+<img class="card-img-top" src="/docs/08_crud/03_el-controlador/routelist_hu3532177992940205678.png" width="1500" height="200">
 </figure>
 
 </div>
